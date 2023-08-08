@@ -15,7 +15,7 @@ The cmult method can be roughly summarized by the following steps:
 
 Java's default multiplication method for BigIntegers has a polynomial time complexity.
 
-By contrast, the cmult method has a linearithmic time complexity.
+By contrast, the cmult method has a O(n log(n) log(log(n))) time complexity.
 
 This disparity in time complexity results in the cmult method being increasingly faster than the default multiplication method for larger values.
 
